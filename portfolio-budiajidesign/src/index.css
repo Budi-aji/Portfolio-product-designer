@@ -8,5 +8,12 @@
 }
 
 :root {
-    --bg-color: #ffffff;
+    --color-bg: #ffffff;
+    --color-primary: #67B6FF;
+    --color-primary-muted: #F8FAFF;
+    --color-primary-text: #434343;
+    --color-secondary-text: #595959;
+    --color-secondary-text-2: #8C8C8C;
+    --color-chips-muted: #F5F5F5;
+    --color-outline: #F0F0F0;
 }
