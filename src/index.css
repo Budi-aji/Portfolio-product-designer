@@ -2,7 +2,8 @@
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0
+;
     border: 0;
     box-sizing: border-box;
     list-style: none;
@@ -18,8 +19,6 @@
     --color-secondary-text-2: #8C8C8C;
     --color-chips-muted: #F5F5F5;
     --color-outline: #F0F0F0;
-
-
 }
 
 html {
@@ -28,6 +27,5 @@ html {
 
 body {
     font-family: 'Inter', sans-serif;
-    background: var(--color-primary);
-
+    background: var(--color-bg);
 }
