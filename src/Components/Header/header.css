@@ -1,0 +1,45 @@
+header {
+    padding: 21px, 0px;
+    
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    gap: 32px;
+}
+
+.nav__links li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav__links li svg {
+    margin-top: 8px;
+    position: absolute;
+}
+.nav__links a {
+    background-color: white;
+}
+.nav__links a:hover {
+    color: var(--color-primary);
+}
+
+.half-elips {
+    margin-top: 3px;
+    position: absolute;
+    background-color: var(--color-primary);
+    height: 9px;
+    width: 17px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 24px;
+}

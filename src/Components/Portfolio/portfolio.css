@@ -1,0 +1,128 @@
+
+
+.port-container h2 {
+    font-weight: 600;
+}
+
+.projects-container {
+    display: flex;
+    max-width: 1080px;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+/* Portofolio Item Classes */
+span {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.top-content {
+    display: flex;
+    gap: 24px;
+    max-width: 1080px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+small {
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 20px;
+    color: var(--color-primary);
+}
+/* logo classes */
+.logo-nusa {
+    height: 30px;
+    width: 160px;
+}
+.logo-cloud {
+    height: 38px;
+    width: 152px;
+}
+.logo-krista {
+    height: 38px;
+    width: 149px;
+}
+
+/* Portofolio Card Classes */
+.card-container-1 {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    min-width: 528px;
+    height: 792px;
+    background-image: url("J:\Repo\Portfolio-product-designer\src\Assets\port1.png");
+}
+
+.card-container-2 {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    min-width: 528px;
+    height: 792px;
+    background-image: url("J:\Repo\Portfolio-product-designer\src\Assets\port2.png");
+}
+
+.card-info {
+    display: flex;
+    position: relative;
+    height: fit-content;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 24px;
+    padding: 32px;
+    background-color: #F8FAFF;
+    border: 1px solid #F8FAFF;
+}
+
+.card-info-v {
+    display: flex;
+    position: relative;
+    height: 100%;
+    max-width: 394px;
+    flex-direction: column;
+
+    flex-grow: 1;
+    gap: 24px;
+    padding: 32px;
+    background-color: #F8FAFF;
+    border: 1px solid #F8FAFF;
+}
+
+.logos-content{
+    display: flex;
+    gap: 24px;
+    height: 38px;
+    max-height: 38px;
+    flex-grow: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc-content {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+
+.desc-content a {
+    display: flex;
+    gap: 8px;
+    font-weight: 600;
+    max-width: fit-content;
+}
+
+.card-container-3 {
+    cursor: pointer;
+    display: flex;
+    max-width: 1080px;
+    height: 528px;
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+    background-image: url("J:\Repo\Portfolio-product-designer\src\Assets\port3.png");
+}

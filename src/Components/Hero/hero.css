@@ -1,0 +1,33 @@
+.hero-container {
+    position: relative;
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 100px;
+    /* max-width: 852px; */
+}
+
+
+.hero-content-container {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    max-width: 852px;
+}
+.hero-container h1 {
+    font-weight: 700;
+    line-height: 102px;
+}
+
+.text-content {
+    max-width: 604px;
+}
+
+
+.CTA {
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
