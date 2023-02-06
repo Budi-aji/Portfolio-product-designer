@@ -12,8 +12,10 @@ const experiences = () => {
   return (
     <section>
       <div className='port-container'>
-        <small>Involved Projects</small>
-        <h2>My Experiences</h2>
+        <div className='title-con'>
+          <small>Involved Projects</small>
+          <h2>My Experiences</h2>
+        </div>
         <div className='slider'>
           <div className='experience-con'>
             <article className='experience-item'>
@@ -53,7 +55,7 @@ const experiences = () => {
               <img src={kp} alt="klinikpintar" className='exp-logo'/>
               <div className='exp-desc'>
                 <h4>Klinik Pintar</h4>
-                <p>Designing customer and business portal website interface and conduct usability testing. Klinik Pintar is a service provider company that help both business and patients through various health services</p>
+                <p>Designing customer and business portal website interface and conduct usability testing. Klinik Pintar is a healthcare service provider company that help both business and patients through various health services</p>
               </div>
               <div className='chips-con'>
                   <div className='chip'>
@@ -152,7 +154,7 @@ const experiences = () => {
             <article className='experience-item'>
               <img src={bulb} alt="bulb" className='exp-logo'/>
               <div className='exp-desc'>
-                <h4>Pesan.io</h4>
+                <h4>Bulb</h4>
                 <p>Create user friendly interface by simplifying complex system using straight forward design elements. Bulb is a web application to check crops compatibility with plants by using its characteristics.</p>
               </div>
               <div className='chips-con'>
@@ -164,13 +166,13 @@ const experiences = () => {
 
                   <div className='chip'>
                     <p>
-                      Front-End Development
+                      Logo Design
                     </p>
                   </div>
 
                   <div className='chip'>
                     <p>
-                      Logo Design
+                      Front-End Development
                     </p>
                   </div>
 
@@ -236,13 +238,13 @@ const experiences = () => {
 
                   <div className='chip'>
                     <p>
-                      Information Architecture
+                      Design Lead
                     </p>
                   </div>
 
                   <div className='chip'>
                     <p>
-                      Design Team Lead
+                      Information Architecture
                     </p>
                   </div>
                 </div>
@@ -263,6 +265,12 @@ const experiences = () => {
 
                   <div className='chip'>
                     <p>
+                      UX Audit
+                    </p>
+                  </div>
+
+                  <div className='chip'>
+                    <p>
                       Technical Documentation
                     </p>
                   </div>
@@ -272,12 +280,6 @@ const experiences = () => {
                       Heuristic Evaluation
                     </p>
                   </div>
-
-                  <div className='chip'>
-                    <p>
-                      UX Audit
-                    </p>
-                  </div>
                 </div>
             </article>
 
@@ -285,7 +287,7 @@ const experiences = () => {
               <img src={kp} alt="kp" className='exp-logo'/>
               <div className='exp-desc'>
                 <h4>Klinik Pintar</h4>
-                <p>Designing customer and business portal website interface and conduct usability testing. Klinik Pintar is a service provider company that help both business and patients through various health services</p>
+                <p>Designing customer and business portal website interface and conduct usability testing. Klinik Pintar is a healthcare service provider company that help both business and patients through various health services</p>
               </div>
               <div className='chips-con'>
                   <div className='chip'>
@@ -395,22 +397,23 @@ const experiences = () => {
 
                   <div className='chip'>
                     <p>
-                      Front-End Development
-                    </p>
-                  </div>
-
-                  <div className='chip'>
-                    <p>
                       Logo Design
                     </p>
                   </div>
 
                   <div className='chip'>
                     <p>
+                      Front-End Development
+                    </p>
+                  </div>
+                  
+                  <div className='chip'>
+                    <p>
                       User Centered Design
                     </p>
                   </div>
                 </div>
+
             </article>
 
             <article className='experience-item'>

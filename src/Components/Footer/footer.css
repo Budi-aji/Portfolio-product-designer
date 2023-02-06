@@ -14,4 +14,30 @@
     height: 56px;
     background-color: var(--color-primary-muted);
     border-radius: 64px;
+    border: 1px solid var(--color-primary-muted)
+}
+
+.link:hover {
+    border: 1px solid var(--color-primary);
+}
+
+.divider {
+    border-top: 1px solid var(--color-outline);
+}
+
+.footer-bottom-row {
+    padding-top: 16px;
+    border-top: 1px solid var(--color-outline);
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    width: 100%;
+    max-width: 1080px;
+    margin-bottom: 32px;
+}
+
+.footer-bottom-row small {
+    font-style: normal;
+    color: var(--color-secondary-text-2);
+    font-size: 14px;
 }

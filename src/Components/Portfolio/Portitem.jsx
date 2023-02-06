@@ -51,7 +51,7 @@ const Portitem = () => {
               <small> 2022</small>
             </div>
             <div className='desc-content'>
-              <p>Krista Client is a mobile app to help Krista's partners to monitor and request work directly to the employees.</p>
+              <p>Krista Client is a mobile app that help Krista's partners monitor and request work directly to the employees.</p>
               <a href="#">Read more 
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.75 10H15.25M15.25 10L11.25 6M15.25 10L11.25 14" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

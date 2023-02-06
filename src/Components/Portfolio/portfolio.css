@@ -75,7 +75,8 @@ small {
     flex-grow: 1;
     gap: 24px;
     padding: 32px;
-    background-color: #F8FAFF;
+    background-color: #f8faff;
+    backdrop-filter: blur(16px);
     border: 1px solid #F8FAFF;
 }
 
@@ -122,7 +123,11 @@ small {
     max-width: 1080px;
     height: 528px;
     flex-grow: 1;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     background-image: url("J:\Repo\Portfolio-product-designer\src\Assets\port3.png");
+}
+
+.card-container-1:hover,.card-container-2:hover,.card-container-3:hover {
+    box-shadow: inset;
 }
