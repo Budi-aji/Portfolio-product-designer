@@ -1,12 +1,12 @@
 import React from 'react'
 import './experiences.css'
-import nusagate from '../../Assets/ng.png'
-import qerja from '../../Assets/qerja.png'
-import kp from '../../Assets/kp.png'
-import guppy from '../../Assets/gl.png'
-import pesan from '../../Assets/pesan.png'
-import bulb from '../../Assets/bulb.png'
-import cl from '../../Assets/curestream.png'
+import nusagate from '../../../../Assets/ng.png'
+import qerja from '../../../../Assets/qerja.png'
+import kp from '../../../../Assets/kp.png'
+import guppy from '../../../../Assets/gl.png'
+import pesan from '../../../../Assets/pesan.png'
+import bulb from '../../../../Assets/bulb.png'
+import cl from '../../../../Assets/curestream.png'
 
 const experiences = () => {
   return (

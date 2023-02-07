@@ -1,7 +1,7 @@
 import React from 'react'
 import './hero.css'
-import foto from '../../Assets/foto.png'
-import cv from '../../Assets/cv.pdf'
+import foto from '../../../../Assets/foto.png'
+import cv from '../../../../Assets/cv.pdf'
 
 const Hero = () => {
   return (

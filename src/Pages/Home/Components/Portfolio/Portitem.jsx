@@ -1,14 +1,14 @@
 import React from 'react'
 import './portfolio.css'
-import nusawalet from '../../Assets/pr-nusawallet.png'
-import cloudLoop from '../../Assets/pr-cloudloop.png'
-import krista from '../../Assets/pr-krista.png'
+import nusawalet from '../../../../Assets/pr-nusawallet.png'
+import cloudLoop from '../../../../Assets/pr-cloudloop.png'
+import krista from '../../../../Assets/pr-krista.png'
 
 const Portitem = () => {
   return (
     <span>
       <div className='top-content'>
-        <a href="#" className='card-container-1'>
+        <a href="/nusawallet-mobile-app-study-case" className='card-container-1'>
           <div className='card-info'>
             <div className='logos-content'>
               <img src={nusawalet} alt="nusawalet" className='logo-nusa'/>
@@ -25,7 +25,7 @@ const Portitem = () => {
           </div >
         </a >
           
-        <a href="#" className='card-container-2'>
+        <a href="/cloudloop-mobile-app-design" className='card-container-2'>
           <div className='card-info'>
               <div className='logos-content'>
                   <img src={cloudLoop} alt="cloudloop" className='logo-cloud'/>
@@ -44,7 +44,7 @@ const Portitem = () => {
         </a>
       </div>
       <div>
-        <a href="#" className='card-container-3'>
+        <a href="/krista-client-mobile-app-design" className='card-container-3'>
           <div className='card-info-v'>
           <div className='logos-content'>
               <img src={krista} alt="krista" className='logo-krista'/>

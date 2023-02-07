@@ -1,0 +1,13 @@
+.under-construct img {
+    width: 30%;
+    height: auto;
+}
+
+.under-construct {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    height: 500px;
+}

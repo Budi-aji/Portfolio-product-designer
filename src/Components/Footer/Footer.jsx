@@ -3,7 +3,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <section className='port-container'>
+    <section className='footer-con'>
       <h3>Let's get in touch!</h3>
       <div className='links-con'>
         <a href='#' className='link'>
