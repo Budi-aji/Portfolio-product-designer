@@ -1,0 +1,89 @@
+.contacts-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    margin-top: 160px;
+    margin-bottom: 200px;
+}
+
+.contacts-con h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contacts-con h4 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.linktrees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-muted);
+    border-radius: 600px;
+    width: 350px;
+    height: 350px;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.linktrees a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border: 2px solid var(--color-outline);
+    background-color: white;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-primary-text);
+    font-family: 'inter', sans-serif;
+    min-width: 300px;
+    width: 300px;
+    height: fit-content;
+    border-radius: 4px;
+}
+
+.linktrees a:hover {
+    border: 2px solid var(--color-primary);
+}
+
+
+
+.ig::before {
+    content: "";
+    position: relative;
+    background-image: url('../../Assets/Contacts/IG.png');
+    width: 24px;
+    height: 24px;
+}
+
+.ln::before {
+    content: "";
+    position: relative;
+    background-image: url('../../Assets/Contacts/LN.png');
+    width: 24px;
+    height: 24px;
+}
+
+.tl::before {
+    content: "";
+    position: relative;
+    background-image: url('../../Assets/Contacts/TL.png');
+    width: 24px;
+    height: 24px;
+}
+
+.gm::before {
+    content: "";
+    position: relative;
+    background-image: url('../../Assets/Contacts/GM.png');
+    width: 24px;
+    height: 24px;
+}
+

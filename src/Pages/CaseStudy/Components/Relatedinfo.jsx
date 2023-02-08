@@ -13,12 +13,12 @@ function Relatedinfo (infoKey) {
         <div className='relInfo-con'>
             <div className="info-wrapper">
                 <h6>Client</h6>
-                <h6><b>{relInfo.client}</b></h6>
+                <h6 className='ins'><b>{relInfo.client}</b></h6>
             </div>
 
             <div className="info-wrapper">
                 <h6>Project Year</h6>
-                <h6><b>{relInfo.year}</b></h6>             
+                <h6 className='ins'><b>{relInfo.year}</b></h6>             
             </div>
 
             <div className="info-wrapper">

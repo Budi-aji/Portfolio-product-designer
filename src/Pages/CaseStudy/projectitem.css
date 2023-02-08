@@ -16,14 +16,15 @@
     display: flex;
     gap: 64px;
     background-color: white;
+    margin-bottom: 80px;
 }
 
 .content-wrapperd h4, h5 {
-    padding-top: 16px;
-    margin-top: -16px;
+    padding-top: 84px;
+    margin-top: -84px;
 }
 .content-wrapperd.port-container{
-    flex-grow: 1;
+    flex-grow: 700px;
     flex-wrap: wrap;
     max-width: 700px;
 }
@@ -50,10 +51,14 @@
 }
 
 .tittle-con a {
+    display: flex;
+    align-items: center;
+    gap: 4px;
     font-size: 14px;
     color: var(--color-secondary-text);
     line-height: 24px;
 }
+
 .paragraph-div {
     font-weight: 400;
     font-size: 10px;
@@ -138,13 +143,14 @@
     display: flex;
     gap: 24px;
     flex-direction: column;
-    padding-left: 24px;
+    padding-left: 40px;
     border-left: 1px solid var(--color-outline);
     position: sticky;
-    top: 40px;
+    top: 100px;
     height: fit-content;
     margin-top: 40px;
     max-width: 377px;
+    min-width: 377px;
 }
 
 .relInfo-con h6 {
@@ -157,6 +163,10 @@
     display: flex;
     gap: 12px;
     flex-direction: column;
+}
+
+.info-wrapper h6 > b {
+    font-size: 16px;
 }
 
 .chip-wrapper {
@@ -178,7 +188,7 @@
 
 .toc-con {
     display: flex;
-    top: 40px;
+    top: 100px;
     position: sticky;
     height: fit-content;
     margin-left: 32px;
@@ -230,6 +240,8 @@
     margin-right: 35px;
     z-index: -1;
 }
+
+
 
 /* .toc-con li.active {
     background-color: var(--color-primary-muted);

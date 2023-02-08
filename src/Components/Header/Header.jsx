@@ -3,11 +3,20 @@ import {Link, NavLink} from 'react-router-dom'
 import {links} from '../../data'
 import Logo from '../../Assets/logo.png'
 import './header.css'
+import { useScrollPos } from './useScrollPos'
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join('');
+}
 
 const Header = () => {
+
+  const scrollP = useScrollPos();
+
+  console.log(scrollP)
   return (
-    <header>
-      <div className="container header__container">
+    <header className={classNames(scrollP > 0 ? 'drop-shadow' : 'no-drop')}>
+      <div className="header__container">
         <Link className='logo' to='/'>
           <img src={Logo} alt="budiaji.design" />
         </Link>

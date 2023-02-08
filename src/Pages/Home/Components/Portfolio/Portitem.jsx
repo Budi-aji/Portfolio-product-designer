@@ -6,7 +6,7 @@ import krista from '../../../../Assets/pr-krista.png'
 
 const Portitem = () => {
   return (
-    <span>
+    <div>
       <div className='top-content'>
         <a href="/nusawallet-mobile-app-study-case" className='card-container-1'>
           <div className='card-info'>
@@ -16,7 +16,7 @@ const Portitem = () => {
             </div>
             <div className='desc-content'>
               <p>NusaWallet is a Crypto Wallet applications with hybrid transaction ability that accept crypto and fiat as payments.</p>
-              <a href="#">Read more 
+              <a>Read more 
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M4.75 10H15.25M15.25 10L11.25 6M15.25 10L11.25 14" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>  
@@ -62,7 +62,7 @@ const Portitem = () => {
         </a>
       </div>
 
-    </span>
+    </div>
   )
 }
 

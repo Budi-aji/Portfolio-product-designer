@@ -3,12 +3,12 @@ import Figure from './Components/Figure'
 import Krcover from '../../Assets/kr-cover.png'
 import Relatedinfo from './Components/Relatedinfo'
 import Listcontent from './Components/Listcontent'
+import Contactfooter from '../../Components/Footer/Contactfooter'
 
 const krista = () => {
   return (
-    <>
+    <div>
       <img src={Krcover} alt="" className="cover" />
-      
       <div className="content-wrapperd">
         <div className="lr-column">
             <Listcontent></Listcontent>
@@ -16,7 +16,13 @@ const krista = () => {
         <div className="content-wrapperd port-container">
           <div className="content-con">
             <div className="tittle-con">
-              <a href="/" className='back-btn'> Back to Home</a>
+              <a href="/" className='back-btn'> <span>
+                <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.83638 8.99991L0.381836 4.54537L4.83638 0.0908203L5.60201 0.846502L2.45002 3.99849H10.6134V5.09224H2.45002L5.60201 8.23429L4.83638 8.99991Z" fill="currentcolor"/>
+                  </svg>
+              </span>
+                Back to Home
+              </a>
               <h2>Krista Client, Mobile App for Krista’s Partners</h2>
             </div>
             <div className="parag-con">
@@ -24,23 +30,23 @@ const krista = () => {
               <p>Krista is an outsourcing company from Indonesia that focus on cleaning services. Currently, they have a mobile app that used by employees to do attendance and work reports. Apparently, Krista have received some feedbacks by their clients that they are unsure about the employee performance because they don’t receive the reports directly.</p>
             </div>
             <Figure idFig={1} arr={"kr"}/>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="problem-statement">Problem Statement</h4>
               <p>The current app (Krista Mobile) is only used for employee attendance and work reports. The reports that employees did are sent directly to the Krista dashboard website so they are the only one who has access to all of the employee reports. The clients of Krista also want to see the reports and sent complaints directly to the employee from mobile app so they can monitor the employee performance and interact with them directly through the app. </p>
             </div>
             <Figure idFig={2} arr={"kr"}/>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="user">The User</h4>
               <p>The user of this app is the clients of Krista, specifically companies that have hired Krista's outsourcing employees or are utilizing their services.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="scope">Scope & Challenges</h4>
               <p>Krista has requested that additional features be added to the current app, Krista Mobile, so that both employees and clients can use it for their respective purposes. However, our product manager has determined that this would be inefficient due to the current app architecture. As a result, the new requirements will be implemented in a separate app specifically designed for use by Krista's clients. This will ensure that the app is optimized and efficient for the needs of the clients while still providing the necessary functionality.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="process">The Process</h4>
               <h5 id="request-gathering">Requirements Gathering</h5>
@@ -74,20 +80,20 @@ const krista = () => {
             <div className="parag-con">
               <p>To ensure a smooth handoff to the engineer, I also create state pages to provide additional information about the design. These state pages serve as a substitute for the interactive prototype and hopefully will help communicate the desired design and functionality to the engineer.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="result">Result & Learnings</h4>
               <p>Once the designs have been completed and approved, the mobile team begins the development process for the app. Upon completion, the app will be released on the App Store and Google Play. This project has taught me two valuable lessons about the realities of the development process. Firstly, the importance of considering technical constraints, budgets, and time when making design decisions in order to deliver results on time. Secondly, while collaborative discussions with Krista's representative have been beneficial for the design process, they can also be time-consuming and energy-intensive.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
           </div>
         </div>
         <div className="lr-column">
             <Relatedinfo infoKey={2}/>
         </div>
       </div>
-      
-    </>
+      <Contactfooter/>
+    </div>
   )
 }
 

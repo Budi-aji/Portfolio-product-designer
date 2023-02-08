@@ -13,7 +13,7 @@ const experiences = () => {
     <section>
       <div className='port-container'>
         <div className='title-con'>
-          <small>Involved Projects</small>
+          <small>Involved In</small>
           <h2>My Experiences</h2>
         </div>
         <div className='slider'>

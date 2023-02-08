@@ -3,6 +3,7 @@ import Figure from './Components/Figure'
 import Clcover from '../../Assets/cl-cover.png'
 import Relatedinfo from './Components/Relatedinfo'
 import Listcontent from './Components/Listcontent'
+import Contactfooter from '../../Components/Footer/Contactfooter'
 
 const cloudloop = () => {
   return (
@@ -16,7 +17,13 @@ const cloudloop = () => {
           
           <div className="content-con">
             <div className="tittle-con">
-              <a href="/" className='back-btn'> Back to Home</a>
+              <a href="/" className='back-btn'> <span>
+                <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.83638 8.99991L0.381836 4.54537L4.83638 0.0908203L5.60201 0.846502L2.45002 3.99849H10.6134V5.09224H2.45002L5.60201 8.23429L4.83638 8.99991Z" fill="currentcolor"/>
+                  </svg>
+                </span>
+                Back to Home
+              </a>
               <h2 id="tittle">CloudLoop, Blood Glucose Monitoring App</h2>
             </div>
             <div className="parag-con">
@@ -24,23 +31,23 @@ const cloudloop = () => {
               <p>Cloudloop is a healthcare application designed for people with diabetes to monitor and track their blood glucose levels and carbohydrate intake. The application uses various sensors such as Continuous Glucose Monitoring (CGM) and insulin sensors to gather data and provide users with insights into their health.</p>
             </div>
             <Figure idFig={1} arr={"cl"}/>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="problem-statement">Problem Statement</h4>
               <p>Managing diabetes can be a complex and challenging task, particularly when it comes to monitoring blood glucose levels and tracking carbohydrate intake. Traditional methods of tracking these parameters, such as manual logbooks, can be time-consuming, prone to human error, and often fail to provide individuals with a complete picture of their health. Cloudloop addresses these challenges by offering a user-friendly platform that leverages the latest technology to provide individuals with diabetes a convenient, accurate, and comprehensive solution for managing their health and reducing the risk of health complications.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="the-user">The User</h4>
               <p>The target user of the Cloudloop app is individuals with diabetes who are looking for an easy and accurate solution to manage their blood glucose levels and carbohydrate intake. This app is specifically designed to meet the needs of people with diabetes and help them improve their health and well-being.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="scope-challenges">Scope & Challenges</h4>
               <p>The end goal of Cloudloop is to provide individuals with diabetes a seamless and automated solution for monitoring and tracking their blood glucose levels and carbohydrate intake. To achieve this, the app must be able to integrate with a variety of medical devices, such as Continuous Glucose Monitors (CGM) and insulin pumps.</p>
               <p>In the first phase of development, the team aims to create a working prototype of the app that can receive manual inputs from users. However, the development process faces several technical and design constraints, including limitations in the available chart library, limited access to the medical devices and tools being used, and a tight 3-week deadline for the design phase.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="design-process">Design Process</h4>
               <p>The client has provided detailed requirements for Cloudloop in the form of a sitemap and low-fidelity wireframes, however, some of the technical terms used in the documents were unfamiliar to me. In order to ensure a deep understanding of the project requirements and avoid potential mistakes during the design phase and avoid cognitive bias, I decided to conduct desk research to gain a better understanding of the terminologies and seek out design references.</p>
@@ -95,13 +102,14 @@ const cloudloop = () => {
               <h4 id="learnings">Learnings</h4>
               <p>This project is the most challenging one from other projects that I did before. The very tight timeline, limited references, some technical constraints, new industry etc. Even so, it was a fun ride for me, having to experience new industry and the bonus I get afterwards that made me stay motivated in this rough roads. Nevertheless, I believe it was something that I need to improve as a better UI/UX Designer.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
           </div>
         </div>
         <div className="lr-column">
           <Relatedinfo infoKey={3}/>
         </div>
       </div>
+      <Contactfooter/>
     </>
   )
 }

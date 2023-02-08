@@ -1,8 +1,9 @@
 .footer-con {
     display: flex;
     flex-direction: column;
-    margin-top: 160px;
+    margin-top: 24px;
     align-items: center;
+    padding: 0px 24px;
 }
 
 .links-con {
@@ -47,4 +48,10 @@
     font-style: normal;
     color: var(--color-secondary-text-2);
     font-size: 14px;
+}
+
+.contact-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

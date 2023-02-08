@@ -3,6 +3,7 @@ import Figure from './Components/Figure'
 import Nscover from '../../Assets/nw-cover.png'
 import Relatedinfo from './Components/Relatedinfo'
 import Listcontent from './Components/Listcontent'
+import Contactfooter from '../../Components/Footer/Contactfooter'
 
 const nusawallet = () => {
   return (
@@ -15,27 +16,33 @@ const nusawallet = () => {
         <div className="content-wrapperd port-container">
           <div className="content-con">
             <div className="tittle-con">
-              <a href="/" className='back-btn'> Back to Home</a>
+              <a href="/" className='back-btn'> <span>
+                <svg width="11" height="9" viewBox="0 0 11 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M4.83638 8.99991L0.381836 4.54537L4.83638 0.0908203L5.60201 0.846502L2.45002 3.99849H10.6134V5.09224H2.45002L5.60201 8.23429L4.83638 8.99991Z" fill="currentcolor"/>
+                  </svg>
+              </span>
+                Back to Home
+              </a>
               <h2>NusaWallet, Hybrid Crypto Wallet Mobile</h2>
             </div>
             <div className="parag-con">
               <h4 id="project-overview">Project Overview</h4>
               <p>As technology continues to advance at a rapid pace, the use of cryptocurrency has become more widespread. While cryptocurrency storage applications or crypto wallets have become more popular, they are still not fully equipped to meet the needs of everyday transactions in the real world.</p>
-              <p>To address this issue, PT Gerbang Asset Nusantara want to create a hybrid digital wallet that combines the storage of both cryptocurrency and fiat money. This innovative solution will allows users to easily make everyday transactions using their crypto wallet, making it a more practical and convenient tool for daily use.</p>
+              <p>To address this issue, PT Gerbang Asset Nusantara intends to create a hybrid digital wallet that combines the storage of both cryptocurrency and fiat money. This innovative solution will allows users to easily make everyday transactions using their crypto wallet, making it a more practical and convenient tool for daily use.</p>
             </div>
             <Figure idFig={1} arr={"ns"}/>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="goals">Goals</h4>
               <p>The purpose of this study is to identify user requirements and validate current presumptions as part of the product development process. To achieve this, I will be using a Design Thinking approach as the design process and conducting Usability Testing at the end of the study to measure the usability of the product. The results of this research will provide valuable insights and inform the product development process.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="scope">Scope</h4>
               <p>To minimize costs, the research for this project will be limited to the Indonesia region and will include a sample of user research participants selected from local areas. These participants will be selected for in-person interviews, which will provide more valuable insights and in-depth observation data.</p>
               <p>To avoid bias, the research will be scaled globally as the development process continues. This will ensure that the product meets the needs of a diverse user base.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="presumptions">Presumptions</h4>
               <p>To begin this study, I first gather the expectations and presumptions of my team and use this information as a starting point for the validation process. The research process will involve challenging these presumptions and gathering additional information to validate them. These are the presumptions I have gathered :</p>
@@ -45,7 +52,7 @@ const nusawallet = () => {
                 <li><p>Lack of hybrid platform for small transactions.</p></li>
               </ul>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="process">The Process</h4>
               <h6>Requirements Gathering</h6>
@@ -117,18 +124,19 @@ const nusawallet = () => {
               <p>In addition, a benchmark chart was created to show how the usability of the product compares to other evaluations.</p>
             </div>
             <Figure idFig={14} arr={"ns"}/>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
             <div className="parag-con">
               <h4 id="learning">Learnings</h4>
               <p>Based on the results of the usability testing, the final design was ready to be handed off to the engineering team. Through this design process, I gained a deeper understanding of user requirements and discovered several key insights that helped us improve our team’s knowledge of the product. Although this iteration went smoothly, there were some aspects that could be improved in future iterations, such as the use of simpler test method like SUS or the inclusion of additional deliverables like user flows or customer journey maps to provide more information throughout the development process.</p>
             </div>
-            <h6 className="paragraph-div">♢ ♢ ♢</h6>
+            <h6 className="paragraph-div">✦ ✦ ✦</h6>
           </div>
         </div>
         <div className="lr-column">
             <Relatedinfo infoKey={1}/>
         </div>
       </div>
+      <Contactfooter/>
     </>
   )
 }
