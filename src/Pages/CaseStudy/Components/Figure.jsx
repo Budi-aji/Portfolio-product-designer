@@ -6,29 +6,23 @@ import { figuresCloudloop } from '../../../data';
 
 
 function Figure (arr) {
-  const ide = arr.idFig
-  const ard = arr.arr
   var figured;
   
-
-  if (ard == "kr"){
+  if (arr.arr === "kr"){
     figured = figuresKrista;
   }
-  else if (ard == "ns"){
+  else if (arr.arr === "ns"){
     figured = figuresNusawallet;
   }
-  else if (ard == "cl"){
+  else if (arr.arr === "cl"){
     figured = figuresCloudloop;
   }else {
     return <div>No figure was found with the given id</div>;
   }
 
-  console.log(arr)
-
   const figuret = figured.find(fig => {
-    return fig.id === ide;
+    return fig.id === arr.idFig;
   });
-  console.log(ide)
 
   return (
     <div className='figure-con'>

@@ -7,7 +7,7 @@ const projects = () => {
     <>
         <div className="under-construct">
             <img src={UndCont} alt="und-const" />
-            <h4>Sorry, this page is under development. Please come back later!</h4>
+            <h4>Sorry, this page is under development. Please come back later</h4>
         </div>
     </>
   )

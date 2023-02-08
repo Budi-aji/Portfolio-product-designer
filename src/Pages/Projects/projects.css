@@ -10,4 +10,9 @@
     align-items: center;
     gap: 48px;
     height: 500px;
+    margin-top: 160px;
+}
+
+.under-construct h4 {
+    font-weight: 500;
 }
