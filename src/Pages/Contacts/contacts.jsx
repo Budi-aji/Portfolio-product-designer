@@ -1,7 +1,10 @@
 import React from 'react'
 import './contacts.css'
+import { TitleFunction } from '../../Components/TitleFunction'
 
 const contacts = () => {
+  
+  TitleFunction("Contacts")
   return (
     <div className="contacts-con">
       <h2>Get in touch</h2>

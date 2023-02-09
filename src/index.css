@@ -136,7 +136,8 @@ small {
 }
 
 .under-construct img {
-    width: 30%;
+    width: 400px;
+    object-fit: cover;
     height: auto;
 }
 
@@ -147,15 +148,153 @@ small {
     align-items: center;
     gap: 48px;
     height: 500px;
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin: 160px 0px;
 }
 
 .under-construct h4 {
     font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+}
+
+.medium-porto {
+    display: none;
 }
 
 /* ======================== MEDIA QUERIES (MEDIUM DEVICES) ==========================*/
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1024px) {
+    .port-container {
+        width: 100%;
+    }
+    
+    .r-column {
+        display: none;
+    }
+
+    .content-wrapperd {
+        gap: 0px;
+    }
+    .content-wrapperd.port-container {
+        min-width: 500px;
+        flex-grow: 1;
+        margin-right: 24px;
+    }
+
+    .l-column {
+        min-width: fit-content;
+    }
+    .toc-con {
+        margin-top: 0px;
+    }
+    .paragraph-div{
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .main-container {
+        gap: 80px;
+    }
+    .hero-container {
+        margin-top: 80px;
+    }
+
+    .under-construct {
+        margin: 80px 0px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 900px) {
+    .l-column {
+        display: none;
+    }
+    .content-wrapperd.port-container {
+        width: 100%;
+        flex-grow: 1;
+        margin-left: 24px;
+    }
+    .content-wrapperd {
+        justify-content: center;
+        min-width: none;
+        margin-bottom: 32px;
+    }
+    .content-con {
+        min-width: none;
+    }
+
+    .cover {
+        object-fit: contain;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .footer-bottom-row {
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+
+    .medium-porto {
+        display: flex;
+        margin: 0px 24px;
+    }
+    .card-info {
+        position: absolute;
+        gap: 24px;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
+    .large-porto {
+        display: none;
+    }
+
+    .medium-con {
+        max-width: none;
+    }
+
+    header {
+        padding: 0px 24px;
+    }
+
+    .projects-container {
+        margin-top: 24px;
+    }
+
+    .contacts-con {
+        margin: 80px 0px;
+    }
+    .toc-con {
+        margin-left: 0px;
+    }
+    .show-stc{
+        display: flex;
+    }
+    .hide-stc{
+        display: none;
+    }
+
+    .sticky-toc {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 624px) {
+    .content-wrapperd.port-container {
+        min-width: 0px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .hero-content-container {
+        flex-direction: column;
+    }
+    .under-construct {
+        margin: 40px 0px;
+    }
     
 }

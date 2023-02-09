@@ -6,7 +6,7 @@ const Portfolio = () => {
   return (
     <section className='port-container'>
       <div className='title-con'>
-        <small>Case Studies</small>
+        <small>Featured</small>
         <h2> Selected Projects</h2>
       </div>
       <div className='projects-container'> 

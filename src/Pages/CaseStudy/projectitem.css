@@ -17,6 +17,7 @@
     gap: 64px;
     background-color: white;
     margin-bottom: 80px;
+    width: 100%;
 }
 
 .content-wrapperd h4, h5 {
@@ -24,14 +25,25 @@
     margin-top: -84px;
 }
 .content-wrapperd.port-container{
-    flex-grow: 700px;
     flex-wrap: wrap;
     max-width: 700px;
+    min-width: 500px;
 }
 
-.lr-column {
+.l-column {
     display: flex;
     flex-grow: 1;
+    min-width: fit-content;
+    flex-shrink: 1;
+    flex-basis: 0;
+}
+
+.r-column {
+    display: flex;
+    flex-grow: 1;
+    min-width: fit-content;
+    flex-shrink: 1;
+    flex-basis: 0;
 }
 
 .cover {
@@ -48,6 +60,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+    z-index: 18;
 }
 
 .tittle-con a {
@@ -87,9 +100,17 @@
     font-size: 16px;
 }
 
+.parag-con h5 {
+    font-weight: 600;
+}
+
 .parag-con li {
     list-style: disc;
     margin-left: 24px;
+}
+
+h5.sub-title {
+    font-weight: 500;
 }
 
 .text-wraper {
@@ -109,7 +130,7 @@
     display: flex;
     flex-direction: column;
     gap: 8px;
-    width: 700px;
+    width: 100%;
     align-items: center;
     flex-grow: 1;
 }
@@ -123,6 +144,10 @@
     color: var(--color-secondary-text-2);
     line-height: 24px;
     font-size: 14px;
+}
+.figure-con img {
+    object-fit: contain;
+    max-width: 100%;
 }
 
 .figure-wraper {
@@ -194,12 +219,12 @@
     margin-left: 32px;
     width: 345px;
     border-left: 1px solid var(--color-outline);
+    margin-top: 40px;
 }
 .toc-con ul{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    
+    min-width: 240px;
 }
 
 .toc-con li {
@@ -231,7 +256,7 @@
     content: "";
     display: block;
     position: absolute;
-    right: 48px;
+    right: -36px;
     top: 0px;
     border-left: 3px solid var(--color-primary);
     background-color: var(--color-primary-muted);
@@ -241,6 +266,43 @@
     z-index: -1;
 }
 
+/* .casestudy-con {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+} */
+
+.sticky-toc {
+    display: none;
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 18;
+    height: fit-content;
+    width: fit-content;
+    background-color: var(--color-primary);
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.sticky-toc-list {
+    position: fixed;
+    bottom: calc(24px + 50px + 16px);
+    right: 24px;
+    z-index: 19;
+    background-color: white;
+    border: 1px solid var(--color-outline);
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+    width: 264px;
+    display: none;
+}
 
 
 /* .toc-con li.active {

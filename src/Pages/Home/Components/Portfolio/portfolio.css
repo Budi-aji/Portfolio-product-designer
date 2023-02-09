@@ -11,6 +11,7 @@
     margin-top: 48px;
     justify-content: center;
     align-self: center;
+    width: 100%;
 }
 
 /* Portofolio Item Classes */
@@ -23,6 +24,21 @@
     margin-bottom: 24px;
 }
 
+.large-porto {
+    width: 100%;
+}
+
+.medium-porto {
+    display: flex;
+    gap: 24px;
+    max-width: 1080px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-bottom: 24px;
+    position: relative;
+    flex-wrap: wrap;
+}
+
 small {
     font-size: 16px;
     font-weight: 400;
@@ -32,8 +48,9 @@ small {
 }
 /* logo classes */
 .logo-nusa {
-    height: 30px;
-    width: 160px;
+    height: auto;
+    max-width: 160px;
+    width: auto;
 }
 .logo-cloud {
     height: 38px;
@@ -83,12 +100,18 @@ small {
     height: 100%;
     max-width: 394px;
     flex-direction: column;
-
+    flex-shrink: 2;
     flex-grow: 1;
+    flex-basis: 0;
     gap: 24px;
     padding: 32px;
     background-color: #F8FAFF;
     border: 1px solid #F8FAFF;
+}
+
+.blank-frame {
+    flex-grow: 2;
+    flex-shrink: 1;
 }
 
 .logos-content{
@@ -96,7 +119,6 @@ small {
     gap: 24px;
     height: 38px;
     max-height: 38px;
-    flex-grow: 1;
     justify-content: space-between;
     align-items: center;
 }
@@ -123,4 +145,24 @@ small {
     justify-content: flex-end;
     align-items: center;
     background-image: url("J:\Repo\Portfolio-product-designer\src\Assets\port3.png");
+}
+
+.medium-con {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    position: relative;
+    flex-grow: 1;
+    min-width: 400px;
+    max-width: 524px;
+    border: 1px solid var(--color-outline);
+}
+
+.cover-img {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    width: 100%;
+    height: 100%;
 }

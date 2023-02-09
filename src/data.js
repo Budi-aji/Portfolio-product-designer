@@ -17,16 +17,28 @@ export const links = [
 
 export const portfolios = [
     {
+        logo: require('./Assets/pr-nusawallet.png'),
         name: "NusaWallet",
-        path: '/nusawallet-mobile-app-study-case'
+        image: require('./Assets/studycases/ns-cs.png'),
+        path: '/nusawallet-mobile-app-study-case',
+        desc: "NusaWallet is a Crypto Wallet applications with hybrid transaction ability that accept crypto and fiat as payments.",
+        year: "2021 - 2022"
     },
     {
+        logo: require('./Assets/pr-krista.png'),
         name: "Krista",
-        path: '/krista-client-mobile-app-design'
+        image: require('./Assets/studycases/kr-cs.png'),
+        path: '/krista-client-mobile-app-design',
+        desc: "Krista Client is a mobile app that help Krista's partners monitor and request work directly to the employees.",
+        year: "2022"
     },
     {
+        logo: require('./Assets/pr-cloudloop.png'),
         name: "CloudLopp",
-        path: '/cloudloo-mobile-app-design'
+        image: require('./Assets/studycases/cl-cs.png'),
+        path: '/cloudloo-mobile-app-design',
+        desc: "CloudLoop is an application to monitor blood glucose and tracking carbohydrates intake with the help of CGM, Insulin and other sensors.",
+        year: "2022"
     },
 ]
 
