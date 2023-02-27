@@ -129,7 +129,7 @@ small {
     flex-direction: column;
 }
 
-.desc-content a {
+.desc-content span {
     display: flex;
     gap: 8px;
     font-weight: 600;

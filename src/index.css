@@ -250,7 +250,7 @@ small {
     }
 
     .medium-con {
-        max-width: none;
+        /* min-width: 0px; */
     }
 
     header {
@@ -278,11 +278,22 @@ small {
         display: flex;
     }
 
+    .contacts-con {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+    .medium-porto {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 624px) {
     .content-wrapperd.port-container {
         min-width: 0px;
+    }
+    h1 {
+        font-size: 36px;
     }
     h2 {
         font-size: 24px;
@@ -294,7 +305,18 @@ small {
         flex-direction: column;
     }
     .under-construct {
-        margin: 40px 0px;
+        margin: 24px 0px;
     }
+    .medium-con {
+        min-width: 0px;
+    }
+    .under-construct img {
+        width: 250px;
+        object-fit: cover;
+        height: auto;
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
     
 }

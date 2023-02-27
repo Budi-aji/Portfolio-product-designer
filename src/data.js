@@ -36,7 +36,7 @@ export const portfolios = [
         logo: require('./Assets/pr-cloudloop.png'),
         name: "CloudLopp",
         image: require('./Assets/studycases/cl-cs.png'),
-        path: '/cloudloo-mobile-app-design',
+        path: '/cloudloop-mobile-app-design',
         desc: "CloudLoop is an application to monitor blood glucose and tracking carbohydrates intake with the help of CGM, Insulin and other sensors.",
         year: "2022"
     },
